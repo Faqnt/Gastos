@@ -1,0 +1,84 @@
+.lista-vacia, .lista-gastos {
+  background: linear-gradient(90deg, #182848 0%, #4b6cb7 100%); /* Azul/Morado */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  max-width: 100%;
+  margin: 0;
+}
+
+.lista-vacia h2 {
+  color: #fff;
+  text-align: center;
+  margin-bottom: 20px;
+
+  margin-bottom: 20p
+}
+
+.lista-gastos h2 {
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 1.8rem;
+}
+
+.gasto-item {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.gasto-item:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.gasto-info h3 {
+  color: #333;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.gasto-acciones {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.monto {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #e0350a;
+}
+
+.btn-eliminar {
+  border: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 1.2rem;
+  transition: background 0.2s, transform 0.2s;
+}
+
+.btn-eliminar:hover {
+  background: #ff3838;
+  transform: scale(1.1);
+}
+
+.btn-eliminar:active {
+  transform: scale(0.95);
+}
+
+.info-total {
+  margin-top: 20px;
+  padding: 15px;
+  background: #f0f0f0;
+  border-radius: 10px;
+  text-align: center;
+}
